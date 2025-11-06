@@ -299,8 +299,11 @@ export async function getGPTSuggestions(request: GPTSuggestionRequest): Promise<
   try {
     const openaiApiKey = process.env.OPENAI_API_KEY
     if (!openaiApiKey) {
+      console.error("OPENAI_API_KEY is not set")
+      console.error("Available env vars:", Object.keys(process.env).filter(k => k.includes('OPENAI')))
       return { success: false, error: "API Key do OpenAI não configurada" }
     }
+    console.log("OpenAI API Key exists:", openaiApiKey.substring(0, 10) + "...")
 
     const prompt = `You are an AAC (Augmentative and Alternative Communication) assistant helping users communicate effectively. 
 
@@ -342,7 +345,9 @@ Keep suggestions appropriate for the user's difficulty level and context. Focus 
     })
 
     if (!response.ok) {
-      return { success: false, error: "Erro ao comunicar com GPT" }
+      const errorText = await response.text()
+      console.error("OpenAI API Error:", response.status, errorText)
+      return { success: false, error: `Erro ao comunicar com GPT: ${response.status}` }
     }
 
     const data = await response.json()
