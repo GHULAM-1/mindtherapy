@@ -1,0 +1,236 @@
+      {/* Partners Section */}
+      <section className="py-20 px-4 bg-gradient-to-b from-white via-purple-50/30 to-white relative overflow-hidden">
+        {/* Decorative elements */}
+        <div className="absolute top-10 left-10 w-72 h-72 bg-purple-200/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-10 right-10 w-96 h-96 bg-blue-200/20 rounded-full blur-3xl"></div>
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-100 to-blue-100 px-4 py-2 rounded-full mb-6">
+              <Handshake className="w-5 h-5 text-purple-600" />
+              <span className="text-purple-700 font-semibold text-sm">Nossos Parceiros</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              As Pessoas que Tornam Este Sonho Possível
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Profissionais excepcionais que acreditam na nossa missão e contribuem com a sua experiência,
+              conhecimento e paixão para transformar vidas
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-10 max-w-6xl mx-auto">
+            {/* Salomé Ratinho */}
+            <div className="group relative">
+              {/* Card background with gradient border effect */}
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
+
+              <div className="relative bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                {/* Header section with image and basic info */}
+                <div className="flex flex-col items-center text-center mb-6">
+                  {/* Image with decorative ring */}
+                  <div className="relative mb-6">
+                    <div className="absolute -inset-2 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full blur-md opacity-40"></div>
+                    <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-xl">
+                      <Image
+                        src="/partners/salome-ratinho.jpg"
+                        alt="Dra. Salomé Ratinho - Médica Especialista de Psiquiatria da Infância e Adolescência"
+                        width={160}
+                        height={160}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    {/* Flag badge */}
+                    <div className="absolute bottom-0 right-0">
+                      <Image
+                        src="/flags/portugal.svg"
+                        alt="Portugal"
+                        width={40}
+                        height={28}
+                        className="w-10 h-auto rounded-md"
+                      />
+                    </div>
+                  </div>
+
+                  <h3 className="text-3xl font-bold text-gray-900 mb-2">
+                    Dra. Salomé Ratinho
+                  </h3>
+
+                  {/* Specialty badge */}
+                  <div className="mb-3 min-h-[44px] flex items-center justify-center">
+                    <div className="bg-gradient-to-r from-purple-100 to-pink-100 px-4 py-2 rounded-full">
+                      <p className="text-purple-700 font-semibold text-sm">
+                        Psiquiatria da Infância e Adolescência
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Location */}
+                  <div className="flex items-center gap-2 text-gray-600 mb-6">
+                    <MapPin className="w-4 h-4 text-purple-500" />
+                    <span className="text-sm font-medium">Évora, Portugal</span>
+                  </div>
+                </div>
+
+                {/* Quote/Highlight */}
+                <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-5 mb-6 relative">
+                  <Quote className="absolute top-3 left-3 w-8 h-8 text-purple-300" />
+                  <p className="text-purple-900 font-medium italic pl-8 text-sm leading-relaxed">
+                    "Diretora clínica da Escutamente, formadora e oradora em congressos sobre saúde mental infantil"
+                  </p>
+                </div>
+
+                {/* Key achievements */}
+                <div className="space-y-3 mb-6 flex-grow">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 flex-shrink-0"></div>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      Ex-coordenadora da Unidade de Psiquiatria da Infância e Adolescência do Hospital Espírito Santo de Évora (2019-2023)
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 flex-shrink-0"></div>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      Co-autora das Orientações para o desenvolvimento de Equipas comunitárias de saúde mental do Alentejo
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 flex-shrink-0"></div>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      Autora de publicações científicas na área da saúde mental infantil
+                    </p>
+                  </div>
+                </div>
+
+                {/* Instagram button */}
+                <div className="mt-auto pt-6 border-t border-purple-100">
+                  <a
+                    href="https://www.instagram.com/doutora_ratinho_pedopsiquiatra/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+                  >
+                    <Instagram className="w-5 h-5" />
+                    <span>Seguir no Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Caio Macharett */}
+            <div className="group relative">
+              {/* Card background with gradient border effect */}
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-green-600 to-teal-600 rounded-3xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
+
+              <div className="relative bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                {/* Header section with image and basic info */}
+                <div className="flex flex-col items-center text-center mb-6">
+                  {/* Image with decorative ring */}
+                  <div className="relative mb-6">
+                    <div className="absolute -inset-2 bg-gradient-to-r from-green-400 to-teal-400 rounded-full blur-md opacity-40"></div>
+                    <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-xl">
+                      <Image
+                        src="/partners/caio-macharett.jpg"
+                        alt="Caio Macharett - Técnico de Enfermagem e Orador Motivacional"
+                        width={160}
+                        height={160}
+                        className="w-full h-full object-cover object-[center_20%]"
+                      />
+                    </div>
+                    {/* Flag badge */}
+                    <div className="absolute bottom-0 right-0">
+                      <Image
+                        src="/flags/brazil.svg"
+                        alt="Brasil"
+                        width={40}
+                        height={28}
+                        className="w-10 h-auto rounded-md"
+                      />
+                    </div>
+                  </div>
+
+                  <h3 className="text-3xl font-bold text-gray-900 mb-2">
+                    Caio Macharett
+                  </h3>
+
+                  {/* Specialty badges */}
+                  <div className="flex flex-wrap gap-2 justify-center mb-3 min-h-[44px] items-center">
+                    <div className="bg-gradient-to-r from-green-100 to-teal-100 px-3 py-1.5 rounded-full">
+                      <p className="text-green-700 font-semibold text-xs">
+                        Técnico de Enfermagem
+                      </p>
+                    </div>
+                    <div className="bg-gradient-to-r from-green-100 to-teal-100 px-3 py-1.5 rounded-full">
+                      <p className="text-green-700 font-semibold text-xs">
+                        Orador Motivacional
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Location */}
+                  <div className="flex items-center gap-2 text-gray-600 mb-6">
+                    <MapPin className="w-4 h-4 text-green-500" />
+                    <span className="text-sm font-medium">Rio de Janeiro, Brasil</span>
+                  </div>
+                </div>
+
+                {/* Quote/Highlight */}
+                <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-5 mb-6 relative">
+                  <Quote className="absolute top-3 left-3 w-8 h-8 text-green-300" />
+                  <p className="text-green-900 font-medium italic pl-8 text-sm leading-relaxed">
+                    "Pai atípico que partilha a sua jornada para inspirar famílias e profissionais ao redor do mundo"
+                  </p>
+                </div>
+
+                {/* Key points */}
+                <div className="space-y-3 mb-6 flex-grow">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-green-500 mt-2 flex-shrink-0"></div>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      Pai de criança com hidrocefalia bilateral, autismo de suporte 2 e deficiência intelectual leve
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-green-500 mt-2 flex-shrink-0"></div>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      Experiência prática no cuidado de pessoas com necessidades especiais
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-green-500 mt-2 flex-shrink-0"></div>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      Palestrante motivacional sobre parentalidade atípica e inclusão
+                    </p>
+                  </div>
+                </div>
+
+                {/* Instagram button */}
+                <div className="mt-auto pt-6 border-t border-green-100">
+                  <a
+                    href="https://www.instagram.com/caiomacharett/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-green-600 to-teal-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+                  >
+                    <Instagram className="w-5 h-5" />
+                    <span>Seguir no Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom message */}
+          <div className="text-center mt-16">
+            <div className="flex items-center justify-center gap-3">
+              <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-purple-400 to-purple-600"></div>
+              <Heart className="w-5 h-5 text-purple-600 flex-shrink-0" />
+              <span className="text-gray-700 font-medium text-lg">
+                Juntos por uma causa que transforma vidas
+              </span>
+              <Heart className="w-5 h-5 text-green-600 flex-shrink-0" />
+              <div className="w-12 h-0.5 bg-gradient-to-r from-green-600 via-green-400 to-transparent"></div>
+            </div>
+          </div>
+        </div>
+      </section>

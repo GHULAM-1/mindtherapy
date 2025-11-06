@@ -1,0 +1,292 @@
+{
+  "batch_1": [
+    {
+      "keyword": "happy",
+      "prompt": "Show the mascot feeling happy with a big smile and bright eyes while keeping its body and design intact. Use warm, cheerful colors and a joyful pose. Keep the background white. Style: friendly cartoon illustration, bright colors, simple shapes.",
+      "category_id": "47c0ea33-67ae-4557-9ffe-a4cfc5d9853a",
+      "image_path": "./public/img.png",
+      "order_index": 0,
+      "tags": ["emotion", "positive"]
+    },
+    {
+      "keyword": "sad",
+      "prompt": "Show the mascot feeling sad with teary eyes and a small frown while keeping its body and design intact. Use soft, muted tones. Keep the background white. Style: friendly cartoon illustration, gentle colors, simple shapes.",
+      "category_id": "47c0ea33-67ae-4557-9ffe-a4cfc5d9853a",
+      "image_path": "./public/img.png",
+      "order_index": 1,
+      "tags": ["emotion", "negative"]
+    },
+    {
+      "keyword": "angry",
+      "prompt": "Show the mascot feeling angry with furrowed brows and clenched fists while keeping its body and design intact. Use warm colors like red and orange. Keep the background white. Style: friendly cartoon illustration, expressive and simple.",
+      "category_id": "47c0ea33-67ae-4557-9ffe-a4cfc5d9853a",
+      "image_path": "./public/img.png",
+      "order_index": 2,
+      "tags": ["emotion", "strong"]
+    },
+    {
+      "keyword": "surprised",
+      "prompt": "Show the mascot looking surprised with wide eyes and an open mouth while keeping its body and design intact. Use bright, energetic tones. Keep the background white. Style: friendly cartoon illustration, vibrant and clear.",
+      "category_id": "47c0ea33-67ae-4557-9ffe-a4cfc5d9853a",
+      "image_path": "./public/img.png",
+      "order_index": 3,
+      "tags": ["emotion", "neutral"]
+    },
+    {
+      "keyword": "scared",
+      "prompt": "Show the mascot feeling scared with a cautious expression and slightly hunched posture while keeping its body and design intact. Use soft blue and purple tones. Keep the background white. Style: friendly cartoon illustration, soft colors, simple shapes.",
+      "category_id": "47c0ea33-67ae-4557-9ffe-a4cfc5d9853a",
+      "image_path": "./public/img.png",
+      "order_index": 4,
+      "tags": ["emotion", "negative"]
+    },
+    {
+      "keyword": "excited",
+      "prompt": "Show the mascot feeling excited with wide open arms and sparkling eyes while keeping its body and design intact. Use vivid, bright colors. Keep the background white. Style: friendly cartoon illustration, lively and cheerful.",
+      "category_id": "47c0ea33-67ae-4557-9ffe-a4cfc5d9853a",
+      "image_path": "./public/img.png",
+      "order_index": 5,
+      "tags": ["emotion", "positive"]
+    },
+    {
+      "keyword": "tired",
+      "prompt": "Show the mascot feeling tired with droopy eyes or a small yawn while keeping its body and design intact. Use calm, cool tones. Keep the background white. Style: friendly cartoon illustration, soothing and simple.",
+      "category_id": "47c0ea33-67ae-4557-9ffe-a4cfc5d9853a",
+      "image_path": "./public/img.png",
+      "order_index": 6,
+      "tags": ["emotion", "neutral"]
+    }
+  ],
+  "batch_2": [
+    {
+      "keyword": "apple",
+      "prompt": "Show the mascot holding or looking at a bright red apple while keeping its body and design intact. Use vivid red and green colors. Keep the background white. Style: friendly cartoon illustration, simple and clear.",
+      "category_id": "13e99eec-e322-43db-9a9f-487a47419ef6",
+      "image_path": "./public/img.png",
+      "order_index": 0,
+      "tags": ["food", "fruit", "healthy"]
+    },
+    {
+      "keyword": "pizza",
+      "prompt": "Show the mascot happily holding a slice of pizza while keeping its body and design intact. Use bright, warm tones. Keep the background white. Style: friendly cartoon illustration, colorful and fun.",
+      "category_id": "13e99eec-e322-43db-9a9f-487a47419ef6",
+      "image_path": "./public/img.png",
+      "order_index": 1,
+      "tags": ["food", "favorite", "italian"]
+    },
+    {
+      "keyword": "icecream",
+      "prompt": "Show the mascot enjoying an ice cream cone while keeping its body and design intact. Use playful pastel colors. Keep the background white. Style: friendly cartoon illustration, bright and sweet.",
+      "category_id": "13e99eec-e322-43db-9a9f-487a47419ef6",
+      "image_path": "./public/img.png",
+      "order_index": 2,
+      "tags": ["food", "dessert", "fun"]
+    },
+    {
+      "keyword": "banana",
+      "prompt": "Show the mascot holding a yellow banana with a cheerful expression while keeping its body and design intact. Keep the background white. Style: friendly cartoon illustration, vibrant and simple.",
+      "category_id": "13e99eec-e322-43db-9a9f-487a47419ef6",
+      "image_path": "./public/img.png",
+      "order_index": 3,
+      "tags": ["food", "fruit", "healthy"]
+    },
+    {
+      "keyword": "carrot",
+      "prompt": "Show the mascot holding a bright orange carrot while keeping its body and design intact. Use lively orange and green tones. Keep the background white. Style: friendly cartoon illustration, clear and simple.",
+      "category_id": "13e99eec-e322-43db-9a9f-487a47419ef6",
+      "image_path": "./public/img.png",
+      "order_index": 4,
+      "tags": ["food", "vegetable", "healthy"]
+    },
+    {
+      "keyword": "burger",
+      "prompt": "Show the mascot proudly holding a burger with a smile while keeping its body and design intact. Use warm, appetizing colors. Keep the background white. Style: friendly cartoon illustration, fun and simple.",
+      "category_id": "13e99eec-e322-43db-9a9f-487a47419ef6",
+      "image_path": "./public/img.png",
+      "order_index": 5,
+      "tags": ["food", "fastfood", "favorite"]
+    },
+    {
+      "keyword": "strawberry",
+      "prompt": "Show the mascot holding or presenting a bright red strawberry while keeping its body and design intact. Keep the background white. Style: friendly cartoon illustration, vibrant and fresh.",
+      "category_id": "13e99eec-e322-43db-9a9f-487a47419ef6",
+      "image_path": "./public/img.png",
+      "order_index": 6,
+      "tags": ["food", "fruit", "sweet"]
+    }
+  ],
+  "batch_3": [
+    {
+      "keyword": "running",
+      "prompt": "Show the mascot running joyfully with arms swinging while keeping its body and design intact. Use bright, dynamic tones. Keep the background white. Style: friendly cartoon illustration, energetic and simple.",
+      "category_id": "c58b645b-1146-4d30-9a11-21dbafd40776",
+      "image_path": "./public/img.png",
+      "order_index": 0,
+      "tags": ["activity", "movement", "fun"]
+    },
+    {
+      "keyword": "reading",
+      "prompt": "Show the mascot sitting and reading a book while keeping its body and design intact. Use warm, calm colors. Keep the background white. Style: friendly cartoon illustration, cozy and simple.",
+      "category_id": "c58b645b-1146-4d30-9a11-21dbafd40776",
+      "image_path": "./public/img.png",
+      "order_index": 1,
+      "tags": ["activity", "learning", "calm"]
+    },
+    {
+      "keyword": "dancing",
+      "prompt": "Show the mascot dancing joyfully with one foot raised while keeping its body and design intact. Use colorful, lively tones. Keep the background white. Style: friendly cartoon illustration, expressive and fun.",
+      "category_id": "c58b645b-1146-4d30-9a11-21dbafd40776",
+      "image_path": "./public/img.png",
+      "order_index": 2,
+      "tags": ["activity", "fun", "creative"]
+    },
+    {
+      "keyword": "painting",
+      "prompt": "Show the mascot painting on a canvas with a small brush while keeping its body and design intact. Use artistic, bright colors. Keep the background white. Style: friendly cartoon illustration, creative and simple.",
+      "category_id": "c58b645b-1146-4d30-9a11-21dbafd40776",
+      "image_path": "./public/img.png",
+      "order_index": 3,
+      "tags": ["activity", "art", "creative"]
+    },
+    {
+      "keyword": "playing",
+      "prompt": "Show the mascot playing with a colorful ball while keeping its body and design intact. Use vivid, joyful colors. Keep the background white. Style: friendly cartoon illustration, lively and playful.",
+      "category_id": "c58b645b-1146-4d30-9a11-21dbafd40776",
+      "image_path": "./public/img.png",
+      "order_index": 4,
+      "tags": ["activity", "fun", "energetic"]
+    },
+    {
+      "keyword": "sleeping",
+      "prompt": "Show the mascot sleeping peacefully with closed eyes while keeping its body and design intact. Use soft, cool tones. Keep the background white. Style: friendly cartoon illustration, calm and simple.",
+      "category_id": "c58b645b-1146-4d30-9a11-21dbafd40776",
+      "image_path": "./public/img.png",
+      "order_index": 5,
+      "tags": ["activity", "rest", "calm"]
+    },
+    {
+      "keyword": "cooking",
+      "prompt": "Show the mascot cooking with a spatula or pan while keeping its body and design intact. Use bright kitchen tones. Keep the background white. Style: friendly cartoon illustration, fun and simple.",
+      "category_id": "c58b645b-1146-4d30-9a11-21dbafd40776",
+      "image_path": "./public/img.png",
+      "order_index": 6,
+      "tags": ["activity", "food", "creative"]
+    }
+  ],
+  "batch_4": [
+    {
+      "keyword": "teacher",
+      "prompt": "Show the mascot dressed as a teacher holding a book or pointer while keeping its body and design intact. Use warm, educational tones. Keep the background white. Style: friendly cartoon illustration, simple and clear.",
+      "category_id": "b6010585-fadf-48dc-b76f-3f6000e98520",
+      "image_path": "./public/img.png",
+      "order_index": 0,
+      "tags": ["people", "education", "role"]
+    },
+    {
+      "keyword": "doctor",
+      "prompt": "Show the mascot dressed as a doctor with a stethoscope while keeping its body and design intact. Use clean, professional colors. Keep the background white. Style: friendly cartoon illustration, kind and clear.",
+      "category_id": "b6010585-fadf-48dc-b76f-3f6000e98520",
+      "image_path": "./public/img.png",
+      "order_index": 1,
+      "tags": ["people", "health", "role"]
+    },
+    {
+      "keyword": "firefighter",
+      "prompt": "Show the mascot dressed as a firefighter with a helmet and hose while keeping its body and design intact. Use bright reds and yellows. Keep the background white. Style: friendly cartoon illustration, brave and fun.",
+      "category_id": "b6010585-fadf-48dc-b76f-3f6000e98520",
+      "image_path": "./public/img.png",
+      "order_index": 2,
+      "tags": ["people", "safety", "role"]
+    },
+    {
+      "keyword": "chef",
+      "prompt": "Show the mascot dressed as a chef wearing a hat and apron while keeping its body and design intact. Use warm kitchen tones. Keep the background white. Style: friendly cartoon illustration, joyful and simple.",
+      "category_id": "b6010585-fadf-48dc-b76f-3f6000e98520",
+      "image_path": "./public/img.png",
+      "order_index": 3,
+      "tags": ["people", "food", "role"]
+    },
+    {
+      "keyword": "police",
+      "prompt": "Show the mascot dressed as a police officer wearing a cap while keeping its body and design intact. Use blue and gold tones. Keep the background white. Style: friendly cartoon illustration, protective and simple.",
+      "category_id": "b6010585-fadf-48dc-b76f-3f6000e98520",
+      "image_path": "./public/img.png",
+      "order_index": 4,
+      "tags": ["people", "security", "role"]
+    },
+    {
+      "keyword": "artist",
+      "prompt": "Show the mascot dressed as an artist holding a paintbrush and palette while keeping its body and design intact. Use bright, creative colors. Keep the background white. Style: friendly cartoon illustration, artistic and fun.",
+      "category_id": "b6010585-fadf-48dc-b76f-3f6000e98520",
+      "image_path": "./public/img.png",
+      "order_index": 5,
+      "tags": ["people", "creative", "role"]
+    },
+    {
+      "keyword": "astronaut",
+      "prompt": "Show the mascot dressed as an astronaut wearing a space helmet while keeping its body and design intact. Use white and blue tones. Keep the background white. Style: friendly cartoon illustration, inspiring and simple.",
+      "category_id": "b6010585-fadf-48dc-b76f-3f6000e98520",
+      "image_path": "./public/img.png",
+      "order_index": 6,
+      "tags": ["people", "space", "role"]
+    }
+  ],
+  "batch_5": [
+    {
+      "keyword": "book",
+      "prompt": "Show the mascot holding a large open book while keeping its body and design intact. Use warm, friendly tones. Keep the background white. Style: friendly cartoon illustration, simple and educational.",
+      "category_id": "9e295b1a-915c-4975-a106-b14c94847fc6",
+      "image_path": "./public/img.png",
+      "order_index": 0,
+      "tags": ["object", "learning", "simple"]
+    },
+    {
+      "keyword": "ball",
+      "prompt": "Show the mascot holding or tossing a colorful ball while keeping its body and design intact. Use bright, playful colors. Keep the background white. Style: friendly cartoon illustration, fun and energetic.",
+      "category_id": "9e295b1a-915c-4975-a106-b14c94847fc6",
+      "image_path": "./public/img.png",
+      "order_index": 1,
+      "tags": ["object", "play", "fun"]
+    },
+    {
+      "keyword": "pencil",
+      "prompt": "Show the mascot holding a large yellow pencil while keeping its body and design intact. Use bright and simple colors. Keep the background white. Style: friendly cartoon illustration, creative and educational.",
+      "category_id": "9e295b1a-915c-4975-a106-b14c94847fc6",
+      "image_path": "./public/img.png",
+      "order_index": 2,
+      "tags": ["object", "drawing", "learning"]
+    },
+    {
+      "keyword": "gift",
+      "prompt": "Show the mascot holding a wrapped gift box while keeping its body and design intact. Use colorful ribbons and bright tones. Keep the background white. Style: friendly cartoon illustration, joyful and clear.",
+      "category_id": "9e295b1a-915c-4975-a106-b14c94847fc6",
+      "image_path": "./public/img.png",
+      "order_index": 3,
+      "tags": ["object", "celebration", "fun"]
+    },
+    {
+      "keyword": "phone",
+      "prompt": "Show the mascot holding a simple smartphone while keeping its body and design intact. Use modern, light tones. Keep the background white. Style: friendly cartoon illustration, simple and techy.",
+      "category_id": "9e295b1a-915c-4975-a106-b14c94847fc6",
+      "image_path": "./public/img.png",
+      "order_index": 4,
+      "tags": ["object", "technology", "modern"]
+    },
+    {
+      "keyword": "balloon",
+      "prompt": "Show the mascot holding colorful balloons while keeping its body and design intact. Use cheerful colors. Keep the background white. Style: friendly cartoon illustration, festive and playful.",
+      "category_id": "9e295b1a-915c-4975-a106-b14c94847fc6",
+      "image_path": "./public/img.png",
+      "order_index": 5,
+      "tags": ["object", "party", "fun"]
+    },
+    {
+      "keyword": "umbrella",
+      "prompt": "Show the mascot holding an open umbrella while keeping its body and design intact. Use bright, happy colors. Keep the background white. Style: friendly cartoon illustration, clear and fun.",
+      "category_id": "9e295b1a-915c-4975-a106-b14c94847fc6",
+      "image_path": "./public/img.png",
+      "order_index": 6,
+      "tags": ["object", "weather", "simple"]
+    }
+  ]
+}
