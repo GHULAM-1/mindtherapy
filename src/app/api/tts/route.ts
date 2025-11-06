@@ -6,20 +6,25 @@ import { createClient } from '@/lib/supabase/server';
 export const maxDuration = 60; // seconds
 export const dynamic = 'force-dynamic'; // Disable static optimization
 
-const elevenlabs = new ElevenLabsClient({
-    apiKey: process.env.ELEVENLABS_API_KEY || process.env.NEXT_ELEVENLABS_API_KEY,
-});
-
 export async function POST(req: NextRequest) {
   try {
+    // Get API key at runtime (not build time)
+    const apiKey = process.env.ELEVENLABS_API_KEY || process.env.NEXT_ELEVENLABS_API_KEY;
+
     // Validate API key exists
-    if (!process.env.ELEVENLABS_API_KEY && !process.env.NEXT_ELEVENLABS_API_KEY) {
+    if (!apiKey) {
       console.error('ELEVENLABS_API_KEY or NEXT_ELEVENLABS_API_KEY is not set');
+      console.error('Available env vars:', Object.keys(process.env).filter(k => k.includes('ELEVEN') || k.includes('SUPABASE')));
       return NextResponse.json(
         { error: 'Server configuration error: Missing API key' },
         { status: 500 }
       );
     }
+
+    // Initialize client at request time with runtime environment variables
+    const elevenlabs = new ElevenLabsClient({
+      apiKey: apiKey,
+    });
 
     const { text, questionId, emotionId } = await req.json();
 
