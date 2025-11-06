@@ -2,12 +2,25 @@ import { ElevenLabsClient } from '@elevenlabs/elevenlabs-js';
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 
+// Increase timeout for audio generation (max 60 seconds for Amplify)
+export const maxDuration = 60; // seconds
+export const dynamic = 'force-dynamic'; // Disable static optimization
+
 const elevenlabs = new ElevenLabsClient({
     apiKey: process.env.NEXT_ELEVENLABS_API_KEY,
 });
 
 export async function POST(req: NextRequest) {
   try {
+    // Validate API key exists
+    if (!process.env.NEXT_ELEVENLABS_API_KEY) {
+      console.error('NEXT_ELEVENLABS_API_KEY is not set');
+      return NextResponse.json(
+        { error: 'Server configuration error: Missing API key' },
+        { status: 500 }
+      );
+    }
+
     const { text, questionId, emotionId } = await req.json();
 
     if (!text || typeof text !== 'string') {
@@ -108,8 +121,22 @@ export async function POST(req: NextRequest) {
     });
   } catch (error) {
     console.error('Error generating speech:', error);
+
+    // Log detailed error information for debugging
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    const errorStack = error instanceof Error ? error.stack : '';
+
+    console.error('Error details:', {
+      message: errorMessage,
+      stack: errorStack,
+      timestamp: new Date().toISOString(),
+    });
+
     return NextResponse.json(
-      { error: 'Failed to generate speech' },
+      {
+        error: 'Failed to generate speech',
+        details: process.env.NODE_ENV === 'development' ? errorMessage : undefined
+      },
       { status: 500 }
     );
   }
