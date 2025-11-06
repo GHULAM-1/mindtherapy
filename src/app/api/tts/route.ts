@@ -7,14 +7,14 @@ export const maxDuration = 60; // seconds
 export const dynamic = 'force-dynamic'; // Disable static optimization
 
 const elevenlabs = new ElevenLabsClient({
-    apiKey: process.env.NEXT_ELEVENLABS_API_KEY,
+    apiKey: process.env.ELEVENLABS_API_KEY || process.env.NEXT_ELEVENLABS_API_KEY,
 });
 
 export async function POST(req: NextRequest) {
   try {
     // Validate API key exists
-    if (!process.env.NEXT_ELEVENLABS_API_KEY) {
-      console.error('NEXT_ELEVENLABS_API_KEY is not set');
+    if (!process.env.ELEVENLABS_API_KEY && !process.env.NEXT_ELEVENLABS_API_KEY) {
+      console.error('ELEVENLABS_API_KEY or NEXT_ELEVENLABS_API_KEY is not set');
       return NextResponse.json(
         { error: 'Server configuration error: Missing API key' },
         { status: 500 }
