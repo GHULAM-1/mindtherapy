@@ -14,6 +14,12 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Explicitly define server-side environment variables
+  env: {
+    ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || '',
+    NEXT_ELEVENLABS_API_KEY: process.env.NEXT_ELEVENLABS_API_KEY || '',
+    OPENAI_API_KEY: process.env.OPENAI_API_KEY || '',
+  },
 };
 
 export default nextConfig;
